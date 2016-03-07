@@ -23,11 +23,11 @@ namespace FanTest.Trans
 
             try
             {
-                MyTrans.Test1();
+                MyTrans.Test2(true);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Call MyTrans.Test1() Error:\r\n" + ex.ToString());
+                Console.WriteLine("Call MyTrans.Test2() Error:\r\n" + ex.ToString());
             }
 
             //try
